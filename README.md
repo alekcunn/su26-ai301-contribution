@@ -3,9 +3,10 @@
 # Contribution [321]: [Adapter: HuggingFace Inference Model Provider]
 
 **Contribution Number:** 1
+
 **Student:** Alex Cunningham  
 **Issue:** https://github.com/orthogonalhq/nous-core/issues/321  
-**Status:** Phase I
+**Status:** Phase I (Complete)
 
 ---
 
