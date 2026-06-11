@@ -55,3 +55,11 @@ The struggles I faced with the set up was mostly just installing pnpm. I wanted 
 - **My findings:** The provider for the adapter has not been implemented yet so the next steps is to implement the provider based on the maintainers specifications
 
 ---
+## Solution Approach
+(using u.m.p.i.r.e)
+Understand: The maintainer wants a model configuration to be implemented for the huggingface inference api. It is so the software is more obvious what interface the user wants the AI to use.
+Match: The software already has OpenAI api chat providers that I can use for reference. I can also look at the huggingface docs for any differences that need to be settled.
+Plan: I will need to set up the huggingface-inference engine in my environment and implement a similar class to the OpenAI, llama, and anthropic providers.
+Implement: 
+Review: I will thoroughly review my code and develop tests to make sure all requirements are met by both me and the maintainer. I will also work with the maintainer to evaluate and adjust my code and pull request.
+Evaluate: I will test the functionality both manually and using automated unit tests
