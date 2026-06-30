@@ -6,7 +6,7 @@
 
 **Student:** Alex Cunningham  
 **Issue:** https://github.com/orthogonalhq/nous-core/issues/321  
-**Status:** Phase III (Incomplete)
+**Status:** Phase IV (Incomplete)
 
 ---
 
@@ -112,9 +112,10 @@ The tests are currently failing and the design for the tests are going to collid
     And an update to the providers catalogs that tie the other providers together
 
 **Maintainer Feedback:**
-[6/23/26] N/A
+[6/23/26] NA
+[6/30/26] https://github.com/orthogonalhq/nous-core/pull/412#pullrequestreview-4575709545
 
 
-**Status:** Drafting
+**Status:** Iterating
 
 ---
