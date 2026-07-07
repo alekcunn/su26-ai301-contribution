@@ -6,7 +6,7 @@
 
 **Student:** Alex Cunningham  
 **Issue:** https://github.com/orthogonalhq/nous-core/issues/321  
-**Status:** Phase IV (Incomplete)
+**Status:** Phase I (Incomplete)
 
 ---
 
