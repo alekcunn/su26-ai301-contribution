@@ -69,19 +69,19 @@ Evaluate: I will test the functionality both manually and using automated unit t
 
 ### Unit Tests
 
-- [ ] Test case 1: Ensure the provider is being added to the ProviderRegistry
-- [ ] Test case 2: That the provider definitions match the definitions in the provider registry and the expected definitions.
-- [ ] Test case 3: The provider fails and is not added if not API key is provided
+- [x] Test case 1: Ensure the provider is being added to the ProviderRegistry
+- [x] Test case 2: That the provider definitions match the definitions in the provider registry and the expected definitions.
+- [x] Test case 3: The provider fails and is not added if not API key is provided
+
 
 ### Integration Tests
-<!-- 
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2 -->
+- [x] Test case 1: Using the codebase catalog generation tests
+- [x] Test case 2: Running pnpm lint and typecheck
 
 
 ### Manual Testing
 
-Manually running the app and verifying functionallity 
+Manually running the app and verifying functionallity with other modules within the overall codebase.
 
 ---
 
@@ -90,7 +90,9 @@ Manually running the app and verifying functionallity
 ### Week 3 Progress
 
 This week I implemented the provider for huggingface-tgi. I created 3 seperate commits (provider, tests, catalog update)
-The tests are currently failing and the design for the tests are going to collide when new providers are added to the shared files
+The tests are currently failing and the design for the tests are going to collide when new providers are added to the shared files.
+
+UPDATE 7/22/2026: Since the pull request has been accepted, all tests I have implemented for my provider are currently passing. Since it is now a permanent part of the codebase any new provider will not break my tests.
 
 
 
